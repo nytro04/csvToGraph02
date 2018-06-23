@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:,">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Reporter</title>
+    <!-- <script src="https://unpkg.com/chart.js@2.7.2/dist/Chart.min.js" defer></script> -->
+    <script src="/vendor/chart.js/dist/Chart.min.js" defer></script>
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Reporter</h1>
+        <form>
+            <input type="file" name="file" accept=".csv" required>
+            <button>Generate report</button>
+        </form>
+        <canvas></canvas>
+    </div>
+</body>
+</html>

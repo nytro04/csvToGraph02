@@ -1,0 +1,26 @@
+:root {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: calc(100% - 2rem);
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+button,
+input {
+    color: inherit;
+    font: inherit;
+}
