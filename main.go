@@ -32,27 +32,27 @@ func parseStatementsCSV(r io.Reader) ([]Statement, error) {
 		return nil, fmt.Errorf("could not parse csv: missing header")
 	}
 
-	headers := records[0]
+	// headers := records[0]
 
-	if len(headers) != 4 {
-		return nil, fmt.Errorf("could not parse csv: invalid headers")
-	}
+	// if len(headers) != 4 {
+	// 	return nil, fmt.Errorf("could not parse csv: invalid headers")
+	// }
 
-	if headers[0] != "DATE" {
-		return nil, fmt.Errorf("could not parse csv: missing DATE")
-	}
+	// if headers[0] != "DATE" {
+	// 	return nil, fmt.Errorf("could not parse csv: missing DATE")
+	// }
 
-	if headers[1] != "DESCRIPTION" {
-		return nil, fmt.Errorf("could not parse csv: missing DESCRIPTION")
-	}
+	// if headers[1] != "DESCRIPTION" {
+	// 	return nil, fmt.Errorf("could not parse csv: missing DESCRIPTION")
+	// }
 
-	if headers[2] != "TYPE" {
-		return nil, fmt.Errorf("could not parse csv: missing TYPE")
-	}
+	// if headers[2] != "TYPE" {
+	// 	return nil, fmt.Errorf("could not parse csv: missing TYPE")
+	// }
 
-	if headers[3] != "AMOUNT" {
-		return nil, fmt.Errorf("could not parse csv: missing AMOUNT")
-	}
+	// if headers[3] != "AMOUNT" {
+	// 	return nil, fmt.Errorf("could not parse csv: missing AMOUNT")
+	// }
 
 	records = records[1:] // Skip's the firt row which are the label.
 	credit := 0
