@@ -12,9 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Requirements
 
-* [Go](https://golang.org). This project uses `Go version go1.10.1`. You can grab and install the latest version from https://golang.org/doc/install 
+* Go https://golang.org. This project uses `Go version go1.10.1`. You can grab and install the latest version from https://golang.org/doc/install 
 
-* [Chart] (http://www.chartjs.org). The project uses a `Chart.js CDN`. See http://www.chartjs.org/docs/latest/ for other options of installing `Chart.js`
+* Chart http://www.chartjs.org. The project uses a `Chart.js CDN`. See http://www.chartjs.org/docs/latest/ for other options of installing `Chart.js`
 
 ### Installing
 
