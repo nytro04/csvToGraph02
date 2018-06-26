@@ -8,11 +8,13 @@ The Project is part of a series of projects for newbie programmers to harness an
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Installing for notes on how to use the project
 
-### Prerequisites
+### Requirements
 
-* [Go](https://golang.org). This project uses `Go version go1.10.1.` You can grab and install the latest version from https://golang.org/doc/install 
+* [Go](https://golang.org). This project uses `Go version go1.10.1`. You can grab and install the latest version from https://golang.org/doc/install 
+
+* [Chart] (http://www.chartjs.org). The project uses a `Chart.js CDN`. See http://www.chartjs.org/docs/latest/ for other options of installing `Chart.js`
 
 ### Installing
 
