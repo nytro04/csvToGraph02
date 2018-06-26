@@ -12,9 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Requirements
 
-* Go https://golang.org. This project uses `Go version go1.10.1`. You can grab and install the latest version from https://golang.org/doc/install 
+* [Go](https://golang.org). This project uses `Go version go1.10.1`. You can grab and install the latest version from https://golang.org/doc/install 
 
-* Chart http://www.chartjs.org. The project uses a `Chart.js CDN`. See http://www.chartjs.org/docs/latest/ for other options of installing `Chart.js`
+* [Chart.js](http://www.chartjs.org). This project uses a `Chart.js CDN`. See http://www.chartjs.org/docs/latest/ for other options of installing `Chart.js`
 
 ### Installing
 
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D.
+5. Submit a pull request
 
 
 ## Acknowledgments
